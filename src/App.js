@@ -6,7 +6,7 @@ const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const fetchJoke = async () => {
-    const response = await fetch("https://icanhazdadjoke.com/", {
+    const response = await fetch("https://us-central1-newbucket-383902.cloudfunctions.net/demo-658", {
       headers: {
         Accept: "application/json"
       }
